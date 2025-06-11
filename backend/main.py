@@ -65,3 +65,8 @@ async def lookalike():
     ]
     random_lookalike = random.choice(lookalike_images)
     return {"lookalike_image_url": random_lookalike}
+
+
+@app.get("/")
+async def root():
+    return {"message": "FastAPI está rodando no Kubernetes! 🚀"}
