@@ -7,9 +7,9 @@ spec:
     app: fastapi
   ports:
     - protocol: TCP
-      port: 8000        # Porta exposta pelo service dentro do cluster
-      targetPort: 8000  # Porta que o container está ouvindo
-      nodePort: 30001   # Porta externa na VM para acessar via NodePort
+      port: 8000        # porta do service dentro do cluster
+      targetPort: 8000  # porta do container
+      nodePort: 30001   # porta exposta para acesso externo
   type: NodePort
 
 

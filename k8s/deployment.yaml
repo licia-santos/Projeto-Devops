@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: fastapi
-          image: liciasantos/fastapi-hello:latest
+          image: liciasantos/fastapi-hello
           ports:
-            - containerPort: 8000
+            - containerPort: 8000  # essa porta tem que bater com o que o FastAPI usa
 
