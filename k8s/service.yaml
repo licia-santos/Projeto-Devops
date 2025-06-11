@@ -7,7 +7,8 @@ spec:
   selector:
     app: fastapi
   ports:
-    - port: 80
-      targetPort: 8000
-      nodePort: 30001  
+    - port: 8000        
+      targetPort: 8000  
+      nodePort: 30001   
+
 
