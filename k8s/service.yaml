@@ -7,10 +7,11 @@ spec:
     app: fastapi
   ports:
     - protocol: TCP
-      port: 8000        # porta do service dentro do cluster
-      targetPort: 8000  # porta do container
-      nodePort: 30001   # porta exposta para acesso externo
+      port: 8000        
+      targetPort: 8000 
+      nodePort: 30001   
   type: NodePort
+
 
 
 
