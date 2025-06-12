@@ -127,7 +127,7 @@ Nesta fase vamos manualmente criar o deployment e service do kubernetes para que
 ```
 docker-compose up -d
 
-docker tag backend-app:latest liciasantos/fastapi:v1.0.0
+docker tag backend-app:latest <seu usuario/nome da imagem no DockerHub>:v1.0.0
 
 cd k8s/
 ```
