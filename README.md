@@ -107,8 +107,8 @@ http://<IP>:8000/docs
 
 2. Publicar a Imagem no Docker Hub:
 ```
-1.	docker login -u <seu usuario> 
-2.	docker push <seu usuario/nome da imagem no DockerHub>:latest
+docker login -u <seu usuario> 
+docker push <seu usuario/nome da imagem no DockerHub>:latest
 ``` 
 
 -----
